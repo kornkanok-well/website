@@ -71,14 +71,29 @@ const images = [
     }
     ]
     },
-  {
-    id: 1,
-    tag: 'Art',
-    images: ['2.png'],
-    place: 'Art Place 2',
-    title: 'Artwork 2',
-    description: 'This is the second art place.',
-  },
+    {
+      id: 1,
+      tag: 'Art',
+      images: ['2.png', '2.1.png', '2.2.png','2.3.png'],
+      place: 'The Jim Thompson Art Center ชั้น 3 Gallery 1',
+      title: 'Utopia Now',
+      description: ['ผลงานของ Kay Walkowiak ศิลปินชาวออสเตรีย นิทรรศการจะพาทุกคนร่วมเดินทางไปกับ "ผี" ในร่างของนักแสดงและศิลปินสื่อแสดงสดของ ธีรวัฒน์ คาเงะ มุลวิไล ที่เข้าสำรวจสถานที่เก่าแก่ทิ้งร้าง พร้อมเปิดพื้นที่ทางจินตนาการสำหรับการคิดถึงอนาคตของโลก "screen" และรูปทรงนามธรรมทรงเลขคณิตที่ปรากฏซ้ำที่ขยายประเด็นความยุติธรรมในอนาคตให้ครอบคลุมถึงชีวิตที่ไม่ใช่มนุษย์'],
+      location: 'The Jim Thompson Art Center ชั้น 3 Gallery 1',
+      date: 'ตั้งแต่วันที่ 11 มีนาคม – 30 มิถุนายน 2566',
+      time: '10.00 – 18.00 น. (ปิดวันอังคาร)',
+      ticket: [
+      { type: 'ผู้ใหญ่', price: '50 บาท' },
+      ],
+      waytogo: [
+        {type: 'BTS',
+    directions: [
+    'มาลงที่สถานีสนามกีฬาแห่งชาติ W1 (BTS National stadium Station exit1) ออกทางออกที่ 1 เมื่อลง',
+    'มาจากสถานีให้เลี้ยวซ้าย เดินตรงไปที่ซอยเกษมสันต์ 2 เข้าไปจนสุดซอย พิพิธภัณฑ์บ้านจิม ทอมป์สัน อยู่ด้านซ้ายมือ',
+    ]
+    },
+        
+      ]
+      },
   // Add more images with their respective tags, places, titles, and descriptions
   // ...
 ];
@@ -151,8 +166,8 @@ const ImageDetailPage = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-gray-200 py-2 px-4 text-gray-800 text-sm">
-        <div className="max-w-3xl mx-auto flex justify-between items-center">
+      <footer className="bg-gray-200 py-2 px-4 text-gray-800 text-sm ">
+        <div className="mx-64 flex justify-between items-center">
           <div>
             <p className="font-bold">Location:</p>
             <p>{image.location}</p>
@@ -167,7 +182,7 @@ const ImageDetailPage = () => {
           </div>
           <div>
             <p className="font-bold">Ticket:</p>
-            <ul className="list-disc list-inside mt-1">
+            <ul className="list-disc list-inside mt-1 x">
               {image.ticket.map((ticket, index) => (
                 <li key={index}>
                   {ticket.type}: {ticket.price}
