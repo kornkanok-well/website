@@ -14,7 +14,7 @@ const images = [
   {
     id: 1,
     tag: 'Art',
-    image: '1.1.png',
+    image: '2.png',
     place: 'Art Place 2',
     title: 'Artwork 2',
     description: 'This is the second art place.',
@@ -40,7 +40,7 @@ const IndexPage = () => {
         {tags.map((tag) => (
           <button
             key={tag}
-            className={`px-4 py-2 rounded-md ${
+            className={`px-4 py-2 mt-4 rounded-md ${
               selectedTag === tag ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
             }`}
             onClick={() => handleTagClick(tag)}
@@ -59,7 +59,7 @@ const IndexPage = () => {
               height={200}
               className="object-cover w-full h-full"
             />
-            <div className="mt-2 flex justify-center">
+            <div className="mt-4 flex justify-center">
               <Link href={`/image/${image.id}?tag=${image.tag}`} passHref>
                 <LinkButton>
                   View Details
@@ -75,7 +75,7 @@ const IndexPage = () => {
 
 const LinkButton = ({ children }) => {
   return (
-    <button className="px-4 py-2 bg-blue-500 text-white rounded-md">
+    <button className="px-4 py-2 bg-blue-500  text-white rounded-md">
       {children}
     </button>
   );
