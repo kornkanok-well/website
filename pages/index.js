@@ -6,7 +6,7 @@ const images = [
   {
     id: 0,
     tag: 'Art',
-    image: '1.png',
+    image: '1.4.jpg',
     place: 'Art Place 1',
     title: 'Artwork 1',
     description: 'This is the first art place.',
@@ -18,6 +18,30 @@ const images = [
     place: 'Art Place 2',
     title: 'Artwork 2',
     description: 'This is the second art place.',
+  },
+  {
+    id: 2,
+    tag: 'Art',
+    image: '3.png',
+    place: 'Art Place 3',
+    title: 'Artwork 3',
+    description: 'This is the third art place.',
+  },
+  {
+    id: 3,
+    tag: 'Art',
+    image: '4.jpg',
+    place: 'Art Place 4',
+    title: 'Artwork 4',
+    description: 'This is the fourth art place.',
+  },
+  {
+    id: 4,
+    tag: 'Museum',
+    image: '5.jpg',
+    place: 'Museum Place 1',
+    title: 'Museum 1',
+    description: 'This is the first museum place.',
   },
   // Add more images with their respective tags, places, titles, and descriptions
   // ...
