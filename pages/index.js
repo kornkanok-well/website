@@ -38,17 +38,49 @@ const images = [
   {
     id: 4,
     tag: 'Museum',
-    image: '5.jpg',
+    image: '5.5.jpg',
     place: 'Museum Place 1',
     title: 'Museum 1',
     description: 'This is the first museum place.',
   },
+  {
+  id: 5,
+    tag: 'Museum',
+    image: '6.5.jpg',
+    place: 'Museum Place 2',
+    title: 'Museum 2',
+    description: 'This is the second museum place.',
+  },
+  {
+    id: 6,
+      tag: 'Museum',
+      image: '7.1.jpg',
+      place: 'Museum Place 3',
+      title: 'Museum 3',
+      description: 'This is the thrid museum place.',
+    },
+    {
+      id: 7,
+        tag: 'Museum',
+        image: '8.4.jpg',
+        place: 'Museum Place 4',
+        title: 'Museum 4',
+        description: 'This is the fourth museum place.',
+      },
+    {
+        id: 8,
+          tag: 'Park',
+          image: '8.4.jpg',
+          place: 'Park Place 1',
+          title: 'Park 1',
+          description: 'This is the first 1 place.',
+   },
   // Add more images with their respective tags, places, titles, and descriptions
   // ...
 ];
 
 
-const tags = ['Art', 'Museum', 'Park', 'Library', 'Local Markets', 'Other Activities'];
+const tags = ['Art', 'Museum', 'Park','Local Markets'];
 
 const IndexPage = () => {
   const [selectedTag, setSelectedTag] = useState('Art');
