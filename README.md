@@ -24,13 +24,6 @@ Find your holidays is designed to provide users with a convenient way to find in
 - View detailed information about each place, including location, description, operating hours, and ticket prices.
 - Get directions and transportation options to reach your desired destination.
 
-## Installation
-
-1. Clone the repository to your local machine:
-
-```shell
-$ git clone https://github.com/yourusername/place-explorer.gitThis is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
