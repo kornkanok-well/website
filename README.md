@@ -1,5 +1,5 @@
 README
-# Place Explorer
+# Find Your Holidays
 
 Find your holidays it is a program that helps users discover, explore places and activities. including how to travel about art exhibitions, museums, parks and local markets
 
