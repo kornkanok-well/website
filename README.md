@@ -1,4 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+README
+# Place Explorer
+
+Find your holidays it is a program that helps users discover, explore places and activities. including how to travel about art exhibitions, museums, parks and local markets
+
+## Table of Contents
+
+- Art ( Van Gogh Alive Bangkok, Utopia Now, Between BAB and Uncountable Time )
+- Museum ( ท้องฟ้าจำลอง, พิพิธภัณฑสถานแห่งชาติพระนคร, Museum of Contemporary Art and Museum Siam )
+- Park ( สวนหลวง ร.9, สวนสมเด็จพระนางเจ้าสิริกิติ์, สวนเบญจกิติ และสวนลุมพินี )
+- Local Markets ( ตลาดเก่าริมน้ำหัวตะเข้, ตลาดน้อย, ตลาดคลองบางหลวง และชุมชนเสาชิงช้า )
+- Way to go ( BTS, MRT, Airport Rail Link, เรือ, รถประจำทาง )
+- Information about a place or exhibitions.
+- Location, Date, Time, Ticket
+
+## Introduction
+
+Find your holidays is designed to provide users with a convenient way to find interesting places to visit and engage in different activities. Whether you are looking for art exhibitions, museums, parks and local markets, Find your holidays has got you covered. With its user-friendly interface and comprehensive database, it's easy to discover new places and plan your next adventure.
+
+## Features
+
+- Browse venues or exhibitions from categories.
+- Select the place of interest from the picture.
+- View detailed information about each place, including location, description, operating hours, and ticket prices.
+- Get directions and transportation options to reach your desired destination.
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+```shell
+$ git clone https://github.com/yourusername/place-explorer.gitThis is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
